@@ -26,6 +26,12 @@ public class Program
             case "extract":
                 Console.WriteLine(number1 - number2);
                 break;
+            case "power":
+                Console.WriteLine(number1 ^ number2);
+                break;
+            case "modulo":
+                Console.WriteLine(number1 % number2);
+                break;
             default:
                 System.Console.WriteLine("You entered a wrong input.");
                 break;
