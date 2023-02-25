@@ -1,5 +1,5 @@
 ﻿using System;
-public class Program
+public class Calculator
 {
     private static void Main(string[] args)
     {
@@ -27,7 +27,7 @@ public class Program
                 Console.WriteLine(number1 - number2);
                 break;
             case "power":
-                Console.WriteLine(number1 ^ number2);
+                Console.WriteLine(Math.Pow(number1, number2));
                 break;
             case "modulo":
                 Console.WriteLine(number1 % number2);
